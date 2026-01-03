@@ -95,15 +95,15 @@ Example: wiring diagrams for LED or button setups.
 
 ---
 
-## 👤 Authors
+## 👤 Author
 
-This project was developed as part of the professional course:
-**Management and Programming of Computer Systems (GPSI)**
+This project was developed as part of the professional course:  
+**Management and Programming of Computer Systems (GPSI)**  
 
-**School:** Escola Profissional Bento Jesus Caraça (EPBJC)
-**Subject:** PSI
-**Year:** 10th
-**Authors:** Andérson Brito & Rodrigo Silva
+**School:** Escola Profissional Bento Jesus Caraça (EPBJC)   
+**Subject:** PSI  
+**Year:** 10th  
+**Authors:** Andérson Brito
 
 ---
 
