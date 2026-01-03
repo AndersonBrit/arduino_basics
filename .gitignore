@@ -1,0 +1,37 @@
+# =========================
+# Arduino & PlatformIO
+# =========================
+
+# Build/compilation folders
+/build/
+/.pio/
+/*.elf
+/*.hex
+/*.bin
+/*.eep
+/*.map
+/*.o
+/*.d
+/*.cpp
+
+# Arduino specific temp files
+*.log
+*.tmp
+*.bak
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# MacOS / Windows
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Libraries
+# =========================
+/libraries/*
+
