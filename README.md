@@ -32,28 +32,28 @@ Projects are organized in **numbered folders** to indicate learning progression:
 ```text
 arduino-basics/
 │
-├── docs/                     → Documentation, diagrams, wiring images
+├── docs/                             → Documentation, diagrams, wiring images
 │
-├── exercises/                → Main folder for all Arduino exercises
+├── exercises/                        → Main folder for all Arduino exercises
 │   │
-│   ├── 01.basic_led_on/      → Sketch folder for first LED exercise
-│   │   └── basic_led_on.ino  → Arduino sketch file
+│   ├── 01.basic_led_on/              → Sketch folder for first LED exercise
+│   │   └── basic_led_on.ino          → Arduino sketch file
 │   │
-│   ├── 02.led_blink/         → Sketch folder for LED blink exercise
+│   ├── 02.led_blink/                 → Sketch folder for LED blink exercise
 │   │   └── led_blink.ino
 │   │
-│   ├── 03.police_led/        → Sketch folder for police lights simulation
+│   ├── 03.police_led/                → Sketch folder for police lights simulation
 │   │   └── police_led.ino
 │   │
-│   ├── 04.button_led/        → Sketch folder for button-controlled LED
+│   ├── 04.button_led/                → Sketch folder for button-controlled LED
 │   │   └── button_led.ino
 │   │
-│   └── 05.sensor_piezo_led/  → Sketch folder for piezo sensor interaction
+│   └── 05.sensor_piezo_led/          → Sketch folder for piezo sensor interaction
 │       └── sensor_piezo_led.ino
 │
-├── .gitignore                → Ignore unnecessary files (build artifacts, temporary IDE files)
-├── LICENSE                   → MIT License
-└── README.md                 → Project documentation
+├── .gitignore               
+├── LICENSE                   
+└── README.md                 
 ````
 
 **Comments on the structure:**
