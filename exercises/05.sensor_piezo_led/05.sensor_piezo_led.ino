@@ -1,7 +1,6 @@
 /*
 Projeto: Sensor Piezo LED
 Descrição: Acende um LED quando o sensor piezo deteta vibração.
-Nível: Iniciante / Intermédio
 Objetivo: Aprender a ler valores analógicos e reagir a estímulos físicos.
 */
 

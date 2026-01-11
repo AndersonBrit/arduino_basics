@@ -1,7 +1,6 @@
 /*
 Projeto: Basic LED On
 Descrição: Acende um LED de forma contínua assim que o Arduino é ligado.
-Nível: Iniciante
 Objetivo: Aprender a configurar um pino como saída e ligar um LED.
 */
 

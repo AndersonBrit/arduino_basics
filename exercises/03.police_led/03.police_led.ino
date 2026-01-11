@@ -1,7 +1,6 @@
 /*
 Projeto: Police LED
 Descrição: Simula luzes de polícia alternando dois LEDs.
-Nível: Iniciante
 Objetivo: Trabalhar com múltiplos LEDs e lógica de alternância.
 */
 

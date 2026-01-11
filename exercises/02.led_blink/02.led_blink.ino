@@ -1,7 +1,6 @@
 /*
 Projeto: LED Blink
 Descrição: Faz um LED piscar continuamente com um intervalo de 1 segundo.
-Nível: Iniciante
 Objetivo: Aprender a usar temporização com a função delay().
 */
 

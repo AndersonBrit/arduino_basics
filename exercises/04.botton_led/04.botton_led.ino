@@ -1,7 +1,6 @@
 /*
 Projeto: Button LED
 Descrição: Controla um LED através do pressionar de um botão.
-Nível: Iniciante
 Objetivo: Aprender a ler entradas digitais e usar condições.
 */
 
