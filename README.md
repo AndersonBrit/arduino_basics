@@ -108,13 +108,13 @@ Exemplo: esquemas de ligação de LEDs ou botões.
 
 ## 👤 Autor
 
-Este projeto foi desenvolvido no âmbito do curso profissional:
-**Gestão e Programação de Sistemas Informáticos (GPSI)**
+Este projeto foi desenvolvido no âmbito do curso profissional:  
+**Gestão e Programação de Sistemas Informáticos (GPSI)**  
 
-**Escola:** Escola Profissional Bento Jesus Caraça (EPBJ)
-**Disciplina:** PSI
-**Ano:** 12º
-**Autor:** Andérson Brito
+**Escola:** Escola Profissional Bento Jesus Caraça (EPBJ)  
+**Disciplina:** PSI  
+**Ano:** 12º  
+**Autor:** Andérson Brito  
 
 ---
 
