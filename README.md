@@ -1,4 +1,4 @@
-<h1 align="center">Arduino Básico</h1>
+<h1 align="center">Arduino Basics</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Linguagem-C%2FC%2B%2B-orange" alt="Linguagem C/C++">
