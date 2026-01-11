@@ -1,112 +1,123 @@
-<h1 align="center">Arduino Basics</h1>
+<h1 align="center">Arduino Básico</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2FC%2B%2B-orange">
-  <img src="https://img.shields.io/badge/Arduino%20IDE-Compatible-00979D">
-  <img src="https://img.shields.io/badge/status-learning-yellow">
-  <img src="https://img.shields.io/badge/project-academic-informational">
+  <img src="https://img.shields.io/badge/Linguagem-C%2FC%2B%2B-orange" alt="Linguagem C/C++">
+  <img src="https://img.shields.io/badge/Compatível-Arduino%20IDE-00979D" alt="Compatível Arduino IDE">
+  <img src="https://img.shields.io/badge/Estado-Apresentação-yellow" alt="Estado">
+  <img src="https://img.shields.io/badge/Projeto-Académico-informativo" alt="Projeto Académico">
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    <img src="https://img.shields.io/badge/Licença-MIT-yellow.svg" alt="Licença MIT">
   </a>
 </p>
 
-This repository contains basic Arduino projects and exercises designed for learning **Arduino programming**, basic **electronics**, and **hardware interaction**.  
-The exercises are progressive, starting from very simple sketches to slightly more complex interactions with buttons and sensors.
+Este repositório contém projetos e exercícios básicos de Arduino, criados para aprendizagem de **programação Arduino**, **eletrónica básica** e **interação com hardware**.
+Os exercícios são progressivos, começando por sketches muito simples até interações ligeiramente mais complexas com botões e sensores.
 
 ---
 
-## 📚 Included Projects
+## 📚 Exercícios Incluídos
 
-Projects are organized in **numbered folders** to indicate learning progression:
+Os projetos estão organizados em **pastas numeradas**, indicando a progressão da aprendizagem:
 
-- **01.basic_led_on** – Turn on an LED  
-- **02.led_blink** – Blink an LED using timing  
-- **03.police_led** – Police light simulation with LEDs  
-- **04.button_led** – Control an LED with a button  
-- **05.sensor_piezo_led** – Control an LED using a piezo sensor  
+* **01.basic_led_on** – Ligar um LED
+* **02.led_blink** – Fazer um LED piscar usando temporização
+* **03.police_led** – Simular luzes de polícia com LEDs
+* **04.button_led** – Controlar um LED com um botão
+* **05.sensor_piezo_led** – Controlar um LED usando um sensor piezo
 
 ---
 
-## 📁 Repository Structure
+## 📁 Estrutura do Repositório
 
 ```text
 arduino-basics/
 │
-├── docs/                             → Documentation, diagrams, wiring images
+├── docs/                             → Documentação, diagramas, imagens do hardware
+│   └── hardware/                     
 │
-├── exercises/                        → Main folder for all Arduino exercises
+├── exercises/                        → Pasta principal para todos os exercícios Arduino
 │   │
-│   ├── 01.basic_led_on/              → Sketch folder for first LED exercise
-│   │   └── basic_led_on.ino          → Arduino sketch file
+│   ├── 01.basic_led_on/              → Pasta do primeiro exercício de LED
+│   │   ├── media/
+│   │   ├── basic_led_on.ino          → Sketch Arduino
+│   │   └── README.md
 │   │
-│   ├── 02.led_blink/                 → Sketch folder for LED blink exercise
-│   │   └── led_blink.ino
+│   ├── 02.led_blink/                 → Pasta do exercício de piscar LED
+│   │   ├── media/
+│   │   ├── led_blink.ino
+│   │   └── README.md
 │   │
-│   ├── 03.police_led/                → Sketch folder for police lights simulation
-│   │   └── police_led.ino
+│   ├── 03.police_led/                → Pasta do exercício de simulação de luzes de polícia
+│   │   ├── media/
+│   │   ├── police_led.ino
+│   │   └── README.md
 │   │
-│   ├── 04.button_led/                → Sketch folder for button-controlled LED
-│   │   └── button_led.ino
+│   ├── 04.button_led/                → Pasta do exercício de LED controlado por botão
+│   │   ├── media/
+│   │   ├── button_led.ino
+│   │   └── README.md
 │   │
-│   └── 05.sensor_piezo_led/          → Sketch folder for piezo sensor interaction
-│       └── sensor_piezo_led.ino
+│   └── 05.sensor_piezo_led/          → Pasta do exercício de sensor piezo
+│       ├── media/
+│       ├── sensor_piezo_led.ino
+│       └── README.md
 │
 ├── .gitignore               
 ├── LICENSE                   
 └── README.md                 
-````
+```
 
-**Comments on the structure:**
+**Comentários sobre a estrutura:**
 
-* **`docs/`**: Ideal for circuit diagrams, images of the hardware setup, or additional notes.
-* **`exercises/`**: Numbered folders indicate progression from simpler to more advanced exercises.
-* **Individual folders**: Each folder contains a single `.ino` Arduino sketch file. Descriptive names help understand what the exercise is about.
-* **`.gitignore`**: Prevents temporary files generated by Arduino IDE from being tracked.
-* **`LICENSE`**: Allows safe sharing and reuse of code.
-* **`README.md`**: Serves as the main guide for the repository.
-
----
-
-## 🎯 Learning Objectives
-
-* Learn Arduino basics
-* Develop programming logic
-* Understand how LEDs, buttons, and sensors work
-* Practice software-hardware interaction
-* Build a GitHub portfolio of beginner Arduino projects
+* **`docs/`**: Ideal para diagramas de circuito, imagens do hardware ou notas adicionais.
+* **`exercises/`**: Pastas numeradas indicam a progressão dos exercícios, do mais simples ao mais avançado.
+* **Pastas individuais**: Cada pasta contém um único sketch `.ino`. Nomes descritivos ajudam a entender o exercício.
+* **`.gitignore`**: Evita que ficheiros temporários gerados pela Arduino IDE sejam adicionados ao Git.
+* **`LICENSE`**: Permite partilha e reutilização segura do código.
+* **`README.md`**: Serve como guia principal do repositório.
 
 ---
 
-## ▶️ How to Use
+## 🎯 Objetivos de Aprendizagem
 
-1. Open **Arduino IDE**.
-2. Open the folder of the project you want to run (e.g., `exercises/01.basic_led_on/`).
-3. Open the `.ino` file in Arduino IDE.
-4. Select the correct board (e.g., Arduino Uno) and port.
-5. Upload the sketch to your Arduino.
-6. Observe the circuit behavior.
-
----
-
-## 🖼 Assets / Documentation
-
-All diagrams, photos, or documentation related to exercises should be stored in `docs/`.
-Example: wiring diagrams for LED or button setups.
+* Aprender conceitos básicos de Arduino
+* Desenvolver lógica de programação
+* Compreender o funcionamento de LEDs, botões e sensores
+* Praticar interação software-hardware
+* Construir um portfólio de projetos de Arduino iniciantes no GitHub
 
 ---
 
-## 👤 Author
+## ▶️ Como Usar
 
-This project was developed as part of the professional course:  
-**Management and Programming of Computer Systems (GPSI)**  
-
-**School:** Escola Profissional Bento Jesus Caraça (EPBJC)   
-**Subject:** PSI  
-**Year:** 10th  
-**Authors:** Andérson Brito
+1. Abrir a **Arduino IDE**.
+2. Abrir a pasta do projeto que deseja executar (ex: `exercises/01.basic_led_on/`).
+3. Abrir o ficheiro `.ino` na Arduino IDE.
+4. Selecionar a placa correta (ex: Arduino Uno) e porta.
+5. Fazer upload do sketch para o Arduino.
+6. Observar o comportamento do circuito.
 
 ---
 
-## 📄 License
+## 🖼 Recursos / Documentação
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+Todos os diagramas, fotos ou documentação relacionados aos exercícios devem ser guardados na pasta `docs/`.
+Exemplo: esquemas de ligação de LEDs ou botões.
+
+---
+
+## 👤 Autor
+
+Este projeto foi desenvolvido no âmbito do curso profissional:
+**Gestão e Programação de Sistemas Informáticos (GPSI)**
+
+**Escola:** Escola Profissional Bento Jesus Caraça (EPBJ)
+**Disciplina:** PSI
+**Ano:** 12º
+**Autor:** Andérson Brito
+
+---
+
+## 📄 Licença
+
+Este projeto encontra-se licenciado sob a **MIT License**. Ver [LICENSE](LICENSE) para detalhes.
