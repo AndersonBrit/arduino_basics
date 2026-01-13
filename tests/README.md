@@ -21,6 +21,7 @@ Cada teste está em uma subpasta com:
 2. **02.scan_display_i2c** – Varre o barramento I2C para **detetar dispositivos conectados** e exibe os endereços no Monitor Serial.  
 3. **03.scan_display_tft** – Testa a **inicialização do display TFT ST7789**, exibindo texto de teste e confirmando que o display funciona corretamente.  
 4. **04.display_hardware_info** – Mostra informações do ESP32 diretamente no **display TFT** e conecta o ESP32 à Wi-Fi, atualizando RAM e tensão VCC em tempo real.
+5. **05.piezo_conection** - Teste para ver se o arduino **recebe vibrações** do piezo e se o **piezo** esta a funcionar corretamente.
 
 ---
 
